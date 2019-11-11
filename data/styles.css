@@ -140,4 +140,16 @@
 }
 ._水平线 {
 }
+._图片2 {
+}
+.text_field {
+  text-align:left;
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
 textarea, select, input, button { outline: none; }
