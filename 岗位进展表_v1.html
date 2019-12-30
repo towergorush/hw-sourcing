@@ -1,0 +1,517 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>岗位进展表_v1</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/岗位进展表_v1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/岗位进展表_v1/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11241" class="ax_default box_2">
+        <img id="u11241_img" class="img " src="images/日常运营职位管理_v1_0,0/u11011.svg"/>
+        <div id="u11241_text" class="text ">
+          <p><span>点击单行数据打开新tab页 进入明细页</span></p><p><span>报表：在一个职位上同一个候选人经过相同节点的数据 如果往复 只算最新的 （特例：面试流程算多次）</span></p><p><span>举例：周一给候选人发了offer&nbsp;&nbsp; 周五又发了一次 再进行数据统计时间筛选周一到周三 就不会存在周一这个发offer的数据</span></p><p><span><br></span></p><p><span>如果流程跳回之前的状态 后面的进展数据都不记录</span></p><p><span>举例：候选人发了offer 2w 入职 2w 现在回到发offer3w 拉数据不会有入职的统计数据 发offer的数据更新到3w</span></p><p><span><br></span></p><p><span>只有运营账号可以导出明细</span></p><p><span><br></span></p><p><span>07.17版本：</span></p><p><span>筛选条件是 向登陆人汇报的人和登陆人向别人汇报以及如果自己是Leader 管理部门及子集部门下所有汇报线在这个部门里面的人</span></p><p><span>团队人数是汇报线在这个团队里的人的合集</span></p><p><span><br></span></p><p><span>如果跳流程 可能会造成数据统计缺失 并不会主动去生成被跳过的状态以及内容</span></p><p><span><br></span></p><p><span>08.09</span></p><p><span>报表 职位管理 和候选人相关 取当前行业和职能 没有就空着</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11242" class="ax_default shape">
+        <div id="u11242_div" class=""></div>
+        <div id="u11242_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11243" class="ax_default shape">
+        <div id="u11243_div" class=""></div>
+        <div id="u11243_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11244" class="ax_default box_2">
+        <div id="u11244_div" class=""></div>
+        <div id="u11244_text" class="text ">
+          <p><span>我的报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11245" class="ax_default box_2">
+        <div id="u11245_div" class=""></div>
+        <div id="u11245_text" class="text ">
+          <p><span>管理员报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11246" class="ax_default shape">
+        <div id="u11246_div" class=""></div>
+        <div id="u11246_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- excel (Dynamic Panel) -->
+      <div id="u11247" class="ax_default" data-label="excel">
+        <div id="u11247_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11247_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11248" class="ax_default shape">
+              <div id="u11248_div" class=""></div>
+              <div id="u11248_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11249" class="ax_default shape">
+              <div id="u11249_div" class=""></div>
+              <div id="u11249_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11250" class="ax_default shape">
+              <div id="u11250_div" class=""></div>
+              <div id="u11250_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11251" class="ax_default shape">
+              <div id="u11251_div" class=""></div>
+              <div id="u11251_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11252" class="ax_default shape">
+              <div id="u11252_div" class=""></div>
+              <div id="u11252_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11253" class="ax_default shape">
+              <div id="u11253_div" class=""></div>
+              <div id="u11253_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11254" class="ax_default shape">
+              <div id="u11254_div" class=""></div>
+              <div id="u11254_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11255" class="ax_default shape">
+              <div id="u11255_div" class=""></div>
+              <div id="u11255_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11256" class="ax_default shape">
+              <div id="u11256_div" class=""></div>
+              <div id="u11256_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11257" class="ax_default shape">
+              <div id="u11257_div" class=""></div>
+              <div id="u11257_text" class="text ">
+                <p><span>xxxxx</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11258" class="ax_default shape">
+              <div id="u11258_div" class=""></div>
+              <div id="u11258_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u11259" class="ax_default image">
+        <img id="u11259_img" class="img " src="images/职位中心首页_v1_0_0/u192.png"/>
+        <div id="u11259_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11260" class="ax_default shape">
+        <div id="u11260_div" class=""></div>
+        <div id="u11260_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11261" class="ax_default shape">
+        <div id="u11261_div" class=""></div>
+        <div id="u11261_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11262" class="ax_default shape">
+        <div id="u11262_div" class=""></div>
+        <div id="u11262_text" class="text ">
+          <p><span>候选人</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11263" class="ax_default shape">
+        <div id="u11263_div" class=""></div>
+        <div id="u11263_text" class="text ">
+          <p><span>Jay.Liu</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u11264" class="ax_default _图片">
+        <img id="u11264_img" class="img " src="images/职位中心首页_v1_0_0/u289.png"/>
+        <div id="u11264_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11265" class="ax_default shape">
+        <div id="u11265_div" class=""></div>
+        <div id="u11265_text" class="text ">
+          <p><span>职位</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11266" class="ax_default shape">
+        <div id="u11266_div" class=""></div>
+        <div id="u11266_text" class="text ">
+          <p><span>帮助中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11267" class="ax_default shape">
+        <div id="u11267_div" class=""></div>
+        <div id="u11267_text" class="text ">
+          <p><span>运营中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u11268" class="ax_default" data-left="598" data-top="226" data-width="173" data-height="68">
+
+        <!-- Unnamed (Group) -->
+        <div id="u11269" class="ax_default" data-left="668" data-top="227" data-width="103" data-height="67">
+
+          <!-- Unnamed (Group) -->
+          <div id="u11270" class="ax_default" data-left="668" data-top="261" data-width="103" data-height="33">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11271" class="ax_default shape">
+              <div id="u11271_div" class=""></div>
+              <div id="u11271_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11272" class="ax_default shape">
+              <img id="u11272_img" class="img " src="images/我的团队候选人_v1_0_0/u8583.svg"/>
+              <div id="u11272_text" class="text ">
+                <p><span>xx公司</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u11273" class="ax_default shape">
+            <div id="u11273_div" class=""></div>
+            <div id="u11273_text" class="text ">
+              <p><span>请选择</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u11274" class="ax_default" data-left="754" data-top="236" data-width="12" data-height="14">
+
+            <!-- Unnamed (Image) -->
+            <div id="u11275" class="ax_default image">
+              <img id="u11275_img" class="img " src="images/职位中心首页_v1_0_0/u175.png"/>
+              <div id="u11275_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u11276" class="ax_default heading_1">
+          <div id="u11276_div" class=""></div>
+          <div id="u11276_text" class="text ">
+            <p><span>业务来源：</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u11277" class="ax_default" data-left="226" data-top="226" data-width="174" data-height="68">
+
+        <!-- Unnamed (Group) -->
+        <div id="u11278" class="ax_default" data-left="300" data-top="227" data-width="100" data-height="67">
+
+          <!-- Unnamed (Group) -->
+          <div id="u11279" class="ax_default" data-left="300" data-top="261" data-width="100" data-height="33">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11280" class="ax_default shape">
+              <div id="u11280_div" class=""></div>
+              <div id="u11280_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u11281" class="ax_default shape">
+              <img id="u11281_img" class="img " src="images/我的团队候选人_v1_0_0/u8601.svg"/>
+              <div id="u11281_text" class="text ">
+                <p><span>进行中</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u11282" class="ax_default shape">
+            <div id="u11282_div" class=""></div>
+            <div id="u11282_text" class="text ">
+              <p><span>请选择</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u11283" class="ax_default" data-left="381" data-top="236" data-width="12" data-height="14">
+
+            <!-- Unnamed (Image) -->
+            <div id="u11284" class="ax_default image">
+              <img id="u11284_img" class="img " src="images/职位中心首页_v1_0_0/u175.png"/>
+              <div id="u11284_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u11285" class="ax_default heading_1">
+          <div id="u11285_div" class=""></div>
+          <div id="u11285_text" class="text ">
+            <p><span>&nbsp;岗位状态：</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11286" class="ax_default label">
+        <div id="u11286_div" class=""></div>
+        <div id="u11286_text" class="text ">
+          <p><span>+ 导出excel</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u11287" class="ax_default shape">
+        <img id="u11287_img" class="img " src="images/日常运营职位管理_v1_0,0/u11072.svg"/>
+        <div id="u11287_text" class="text ">
+          <p><span style="font-family:'Helvetica';">+&nbsp; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">生成报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11288" class="ax_default label">
+        <div id="u11288_div" class=""></div>
+        <div id="u11288_text" class="text ">
+          <p><span>+ 导出明细</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11289" class="ax_default _文本段落">
+        <div id="u11289_div" class=""></div>
+        <div id="u11289_text" class="text ">
+          <p><span>岗位进展表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11290" class="ax_default label">
+        <div id="u11290_div" class=""></div>
+        <div id="u11290_text" class="text ">
+          <p><span>需求日期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u11291" class="ax_default" data-left="300" data-top="182" data-width="234" data-height="32">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u11292" class="ax_default shape">
+          <div id="u11292_div" class=""></div>
+          <div id="u11292_text" class="text ">
+            <p style="font-size:14px;"><span style="font-family:'Arial Normal', 'Arial';">2015-10-02 </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-size:11px;">～</span><span style="font-family:'Arial Normal', 'Arial';font-size:11px;">&nbsp; </span><span style="font-family:'Arial Normal', 'Arial';">2015-10-10 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u11293" class="ax_default" data-left="510" data-top="191" data-width="15" data-height="14">
+
+          <!-- Unnamed (Image) -->
+          <div id="u11294" class="ax_default image">
+            <img id="u11294_img" class="img " src="images/职位中心首页_v1_0_0/u149.png"/>
+            <div id="u11294_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11295" class="ax_default _文本段落">
+        <div id="u11295_div" class=""></div>
+        <div id="u11295_text" class="text ">
+          <p><span>职位进行中情况</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11296" class="ax_default _文本段落">
+        <div id="u11296_div" class=""></div>
+        <div id="u11296_text" class="text ">
+          <p><span>人均产出表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11297" class="ax_default _文本段落">
+        <div id="u11297_div" class=""></div>
+        <div id="u11297_text" class="text ">
+          <p><span>候选人SLA</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11298" class="ax_default _文本段落">
+        <div id="u11298_div" class=""></div>
+        <div id="u11298_text" class="text ">
+          <p><span>面试官情况</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11299" class="ax_default label">
+        <div id="u11299_div" class=""></div>
+        <div id="u11299_text" class="text ">
+          <p><span>到位日期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u11300" class="ax_default" data-left="672" data-top="182" data-width="234" data-height="32">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u11301" class="ax_default shape">
+          <div id="u11301_div" class=""></div>
+          <div id="u11301_text" class="text ">
+            <p style="font-size:14px;"><span style="font-family:'Arial Normal', 'Arial';">2015-10-02 </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-size:11px;">～</span><span style="font-family:'Arial Normal', 'Arial';font-size:11px;">&nbsp; </span><span style="font-family:'Arial Normal', 'Arial';">2015-10-10 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u11302" class="ax_default" data-left="882" data-top="191" data-width="15" data-height="14">
+
+          <!-- Unnamed (Image) -->
+          <div id="u11303" class="ax_default image">
+            <img id="u11303_img" class="img " src="images/职位中心首页_v1_0_0/u149.png"/>
+            <div id="u11303_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11304" class="ax_default shape">
+        <div id="u11304_div" class=""></div>
+        <div id="u11304_text" class="text ">
+          <p><span>报表</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
